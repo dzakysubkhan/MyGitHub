@@ -1,0 +1,16 @@
+th{
+    text-align: center;
+}
+
+.card-icon{
+    color: rgb(34, 34, 34);
+    margin-left:6.1px
+}
+
+.card-icon:hover{
+    color: rgb(167, 167, 167);
+}
+
+.re{
+    text-align: center;
+}
