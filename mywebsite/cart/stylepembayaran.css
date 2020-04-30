@@ -1,0 +1,76 @@
+.pembayaran-head h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: black;
+    font-size: 50px;
+    font-family:'Circular STD Medium'; src:url(http://localhost/mywebsite/aset/font/circular.ttf);
+}
+
+.product-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 180px));
+    grid-gap: 2.5rem;
+  }
+
+  .product-grid{
+      /* background-color: #131313; */
+      width: 200px;
+      height: 250px;
+      margin-bottom: 50px;
+  }
+
+  .product-pict{
+      width: 200px;
+      height: 200px;
+      background-color: white;
+  }
+
+  .product-name{
+      color: black;
+      text-transform: uppercase;
+      width: 200px;
+      height: 30px;
+      /* background-color: red; */
+  }
+
+  .product-price{
+    text-transform: uppercase;
+    color: rgb(100, 100, 100) ;
+    margin-top: -20px;
+    width: 200px;
+    height: 20px;
+    /* background-color: rgb(142, 175, 22); */
+}
+
+.alamat-content{
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.rek-content{
+    margin-bottom: 50px;
+}
+
+.buy{
+    margin-top: 8px;
+    color: white;
+    width: 400px;
+    height: 50px;
+    background-color: rgb(36, 36, 36);
+    transition: .3s;
+    border: 0;
+    margin-bottom: 100px;
+}
+
+.buy h2{
+    text-align: center;
+    padding-top: 0px;
+    cursor: pointer;
+    color: white;
+}
+
+.buy:hover{
+    background-color: #ffcc00;
+}
+
+

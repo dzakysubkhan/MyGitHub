@@ -1,0 +1,106 @@
+html{
+    box-sizing: border-box;
+}
+#sidenav {
+    margin-top: 100px;
+    height: 49%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 120px;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  #sidenav a {
+    font-family:'Circular STD Medium'; src:url(http://localhost/mywebsite/aset/font/circular.ttf);
+    padding: 20px 8px 6px 0px;
+    left: 0;
+    text-decoration: none;
+    color: #000000;
+    display: block;
+  }
+  
+  #sidenav a:hover {
+    color: #ffcc00;
+  }
+
+  .category h1{
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+
+  .category h4{
+      margin-bottom: -10px;
+      color: rgb(75, 75, 75);
+  }
+  
+  .category h4:hover{
+    color: #ffcc00;
+  }
+  
+  .content {
+    font-family:'Circular STD Medium'; src:url(http://localhost/mywebsite/aset/font/circular.ttf);
+    margin-top: 55px;
+    margin-left: 250px; /* Same as the width of the sidenav */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+  }
+
+  .head-content h1{
+      color: black;
+      font-size: 50px;
+  }
+
+  .head-content h5{
+      color: rgb(97, 97, 97);
+      margin-bottom: 40px;
+  }
+
+  .product-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 180px));
+    grid-gap: 2.5rem;
+  }
+
+  .product-grid{
+      /* background-color: #131313; */
+      width: 200px;
+      height: 250px;
+      margin-bottom: 50px;
+  }
+
+  .product-pict{
+      width: 200px;
+      height: 200px;
+      background-color: white;
+  }
+
+  .product-name{
+      color: black;
+      text-transform: uppercase;
+      width: 200px;
+      height: 30px;
+      /* background-color: red; */
+  }
+
+  .product-price{
+    text-transform: uppercase;
+    color: rgb(100, 100, 100) ;
+    margin-top: -20px;
+    width: 200px;
+    height: 20px;
+    /* background-color: rgb(142, 175, 22); */
+}
+
+
+
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  

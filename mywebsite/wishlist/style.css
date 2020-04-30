@@ -1,0 +1,51 @@
+.product{
+    margin-top: 40px;
+}
+
+.wishlist-head h1{
+    margin-top: 40px;
+    color: black;
+    font-size: 50px;
+    font-family:'Circular STD Medium'; src:url(http://localhost/mywebsite/aset/font/circular.ttf);
+}
+
+  .product-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(201px, 180px));
+    grid-gap: 2.5rem;
+  }
+
+  .product-grid{
+      /* background-color: #131313; */
+      width: 200px;
+      height: 250px;
+      margin-bottom: 50px;
+  }
+
+  .product-pict{
+      width: 200px;
+      height: 200px;
+      background-color: white;
+  }
+
+  .product-name{
+      color: black;
+      text-transform: uppercase;
+      width: 200px;
+      height: 30px;
+      /* background-color: red; */
+  }
+
+  .product-price{
+    text-transform: uppercase;
+    color: rgb(100, 100, 100) ;
+    margin-top: -20px;
+    width: 200px;
+    height: 20px;
+    /* background-color: rgb(142, 175, 22); */
+}
+
+.ewe{
+    margin-top: 220px;
+}
+

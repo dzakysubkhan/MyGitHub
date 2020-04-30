@@ -1,0 +1,120 @@
+html{
+    box-sizing: border-box;
+}
+
+.search-content{
+    width: 100%;
+}
+
+.search-head h1{
+    margin-top: 170px;
+    color: black;
+    font-size: 50px;
+    font-family:'Circular STD Medium'; src:url(http://localhost/mywebsite/aset/font/circular.ttf);
+}
+
+.search-head{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search{
+    width: 500px;
+    height: 40px;
+    border: 2px solid black;
+    font-size: 25px;
+    font-family:'Circular STD Medium'; src:url(http://localhost/mywebsite/aset/font/circular.ttf);
+    text-align: center;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.search:hover{
+    border: 2px solid #ffcc00;
+}
+
+.buy-now-content{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(31, 31, 31);
+    transition: .5s;
+    cursor: pointer;
+    margin-right: 20px;
+    border: 0;
+}
+
+.buy-now-content:hover{
+    background-color: #ffcc00;
+}
+
+.buy-now-content h1{
+    color: white;
+    font-size: 20px;
+}
+
+.resi-head h1{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: black;
+    font-size: 50px;
+    font-family:'Circular STD Medium'; src:url(http://localhost/mywebsite/aset/font/circular.ttf);
+}
+
+.product-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 180px));
+    grid-gap: 2.5rem;
+  }
+
+  .product-grid{
+      /* background-color: #131313; */
+      width: 200px;
+      height: 250px;
+      margin-bottom: 50px;
+  }
+
+  .product-pict{
+      width: 200px;
+      height: 200px;
+      background-color: white;
+  }
+
+  .product-name{
+      color: black;
+      text-transform: uppercase;
+      width: 200px;
+      height: 30px;
+      /* background-color: red; */
+  }
+
+  .product-price{
+    text-transform: uppercase;
+    color: rgb(100, 100, 100) ;
+    margin-top: -20px;
+    width: 200px;
+    height: 20px;
+    /* background-color: rgb(142, 175, 22); */
+}
+
+.icon-kondisi{
+    font-size: 120px;
+    color: rgb(0, 158, 0);
+}
+
+.content-kondisi{
+    margin-left: 50px;
+    font-family:'Circular STD Medium'; src:url(http://localhost/mywebsite/aset/font/circular.ttf);
+
+    
+}
+
+.content-kondisi h1{
+    color: rgb(0, 158, 0);
+}
+
+.resi-content{
+    margin-bottom: 50px;
+}

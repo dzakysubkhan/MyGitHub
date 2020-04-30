@@ -1,0 +1,258 @@
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Nunito', sans-serif;
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+.judul{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style: none;
+    margin-right: 115px;
+}
+
+p{
+    font-size: 1.6rem;
+}
+
+
+section{
+    padding: 5rem 0;
+}
+
+
+/* header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    
+} */
+
+#navbar{
+    height: 70px;
+    width:100%;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0.5px 0px rgba(0, 0, 0, 0.596);
+    transition: top 0.3s; 
+    top: -70px;
+    z-index: 4;
+}
+
+#navbar2{
+    padding-top: 10px;
+    height: 100px;
+    width:100%;
+    background-color: rgba(216, 216, 216, 0.253);
+    transition: .3s;
+    z-index: 3;
+}
+
+.container{
+    z-index: 1;
+}
+
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.icon-brand{
+    width:50px;
+    margin-left: 103px;
+    margin-right: 20px;
+}
+
+.menu-icons i{
+    font-size: 3.5rem;
+    color: #fafafa;
+    cursor: pointer;
+}
+
+.close i{
+    color: #ffffff;
+}
+
+.logout-icon{
+    width: 25px;
+    height: 25px;
+    background: url("http://localhost/siperpus/aset/pict/logout-icon.png") no-repeat;
+}
+.logout-icon:hover{
+    background: url("http://localhost/siperpus/aset/pict/logout-icon-hover.png") no-repeat;
+}
+
+.nav-list{
+    width: 25rem;
+    height: 100vh;
+    background-color: #202020;
+    position: fixed;
+    top: 0;
+    right: -26rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1500;
+    transition: all 650ms ease-in-out;
+    
+
+}
+
+.nav-list.active{
+    right: 0;
+}
+
+.close{
+    position: absolute;
+    top: 1rem;
+    left: 1.5rem;
+
+}
+
+.menu-button{
+    margin-right: -5px;
+}
+
+.nav-item{
+    margin: 1.5rem 0;
+    color: black;
+}
+
+.nav-item a{
+    color: black;
+}
+.nav-item a:hover{
+        color: #ffcc00;
+    }
+.nav-link,.current{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.nav-brand{
+    margin-top: 3px;
+    font-size: 15px;
+}
+
+/* .container{
+    margin-top: 100px;
+} */
+
+
+/* .card{
+    width: 30rem;
+    height: 18rem;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.911);
+    
+}
+
+.card:hover{
+    box-shadow: 2px 3px 20px rgba(0, 0, 0, 0.911);
+} */
+
+.icon{
+    width: 20px;
+    margin-left: 15px;
+}
+
+.badge-notif {
+    position:relative;
+}
+
+.badge-notif[data-badge]:after {
+    content:attr(data-badge);
+    position:absolute;
+    top:-10px;
+    right:-10px;
+    font-size:.7em;
+    background:#ffcc00;
+    color:rgb(0, 0, 0);
+    width:18px;
+    height:18px;
+    text-align:center;
+    line-height:18px;
+    border-radius: 50%;
+}
+
+@media screen and (min-width:700px){
+
+
+
+    /* .nav-brand{
+        widows: 3.5rem;
+    } */
+
+
+    .nav-list{
+        width: initial;
+        height: initial;
+        background-color: transparent;
+        right: initial;
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        margin-top: 5px;
+        position: relative;
+    }
+
+    .menu-icons{
+        display: none;
+    }
+
+    .nav-item{
+        margin: 0 0.5rem;
+    }
+
+    .nav-link,.current{
+        
+        color: #fafafa;
+        position: relative;
+        font-size: 1.3rem;
+        margin-top: -7px;
+    }
+
+    .nav-link::before,
+    .current::before{
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -.5rem;
+        background-color: #000000;
+        width: 100%;
+        height: 2px;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: transform 650ms;
+        color: #000000;
+
+
+    }
+
+    
+
+    .current::before{
+        transform: scaleX(1);
+    }
+
+    .nav-link:hover::before{
+        transform: scaleX(1);
+    }
+
+}

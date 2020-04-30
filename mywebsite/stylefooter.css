@@ -1,0 +1,61 @@
+footer{
+    padding: 0.5rem 0;
+    text-align: center;
+    color: #e7e7e7;
+    position: absolute;
+    z-index: 3;
+
+}
+
+.footer{
+    background-color: #1d1d1d;
+    width: 100%;
+    height: 230px;
+    color: #a0a0a0;
+}
+
+.media-icon-2{
+    font-size: 30px;
+    color: white;
+    margin-top: -40px;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.ngisor{
+    margin-top: 20px;
+    color: white;
+}
+
+.copyright{
+    color: #a0a0a0;
+}
+
+.pict-me{
+    margin-top: -60px;
+    width: 300px;
+    
+    border-radius: 2rem;
+}
+
+.ini-about{
+    width: 400px;
+    margin-left: 40px;
+    margin-top: -80px;
+}
+
+.iki-judule{
+    font-size: 10px;
+    color: rgb(168, 168, 168);
+}
+
+.uweh{
+    margin-top: 100px;
+}
+
